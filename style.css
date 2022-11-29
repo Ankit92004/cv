@@ -1,0 +1,124 @@
+*{
+margin: 0; padding: 0;
+box-sizing: border-box;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+ width: 100%;
+ height: 100vh;
+ /*background-image: url('../images/bg.png');*/
+ background-color: #28282b;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+
+}
+
+.mainheader{
+ width: 100%;
+ height: 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.mainheader .logo img{
+ width: 250px; height: 70px;
+ padding-left: 60px;
+}
+
+.mainheader nav{
+ width: 450px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.mainheader nav a{
+ text-decoration: none;
+ color:white;
+ text-transform: uppercase;
+}
+
+.menubtn{
+ margin-right: 60px;
+}
+.mainheader button{
+ padding: 10px 45px;
+ text-align: center;
+ font-size: 14px;
+ color:#fff;
+ border:8282 none;
+ background-image: linear-gradient(to right,#dcad2a,#DC582A,#dc9b2a);
+ border-radius: 10px;
+}
+
+
+main{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+main .right-sec{
+ padding-right: 70px;
+ float: left;
+}
+
+main .left-sec{
+ padding-left: 100px;
+}
+
+.left-sec h2{
+ font-size: 20px;
+ text-transform: capitalize;
+ font-weight: lighter;
+ color:white;
+ margin-top: 100px;
+}
+
+.left-sec h1{
+ font-size: 55px;
+ text-transform: capitalize;
+ font-weight: 700;
+ margin: 15px 0;
+ color: #fff;
+}
+
+.left-sec p{
+ margin-bottom: 20px;
+ color:#fff;
+}
+
+.left-sec button{
+ padding: 15px 45px;
+ text-align: center;
+ font-size: 14px;
+ color: #fff;
+ border: none;
+ border-radius: 10px;
+ background-image: linear-gradient(to right,#dcad2a,#DC582A,#dc9b2a);
+}
+.bar{
+    height: 3px;
+    width:100%;
+    background-color: white;
+    display:black;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+#menu{
+    width: 35px;
+    height: 30px ;
+    margin: 30px 0px 20px 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+#bar1{
+    transform: translateY(-4px);
+
+}
+#bar3{
+    transform: translateY(4px);
+}
